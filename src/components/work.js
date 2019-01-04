@@ -17,7 +17,7 @@ class Work extends Component {
 
 		const elmCom = dataWork.map((item, index)=> {
 			return (
-				<Itemwork data={item} key={index} />			
+				<Itemwork data={item} key={index} index={index} />			
 			);
 		})
 

@@ -5,9 +5,10 @@ import ScrollAnimation from 'react-animate-on-scroll';
 class Itemwork extends Component {
 	render() {
 		const {data} = this.props;
+		const index = this.props.index;
 
 	    return (			
-			<ScrollAnimation animateIn={data.animation} scrollableParentSelector='#work'>
+			<ScrollAnimation animateIn={data.animation} scrollableParentSelector='#work' delay={index * 500}>
 				<Col md={6}>
 					<div className="project" style={{backgroundImage: `url(${data.url_img})` }}>
 						<div className="desc">
