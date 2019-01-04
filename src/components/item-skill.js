@@ -8,7 +8,7 @@ class Itemskill extends Component {
 		const index = this.props.index;
 
 	    return (			
-			<ScrollAnimation animateIn={data.animation} delay={index * 300}>
+			<ScrollAnimation animateIn={data.animation} delay={index * 200}>
 				<Col md={6}>
 					<div className="progress-wrap">
 						<h3>Photoshop</h3>
