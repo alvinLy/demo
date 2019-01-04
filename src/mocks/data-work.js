@@ -15,13 +15,13 @@ let work = [
         name    : "Ubl.vn",
         link    : "http://ubl.vn",
         url_img   : "/assets/images/img-3.jpg",
-        animation   : "fadeInUp"
+        animation   : "fadeInLeft"
     },
     {
         name    : "Wannabe",
         link    : "https://wannabe.com.vn/",
         url_img   : "/assets/images/img-4.jpg",
-        animation   : "fadeInUp"
+        animation   : "fadeInRight"
     },
     {
         name    : "Thị Trường Sỉ",
@@ -39,25 +39,25 @@ let work = [
         name    : "Orange Dental Clinic",
         link    : "https://www.orange-dc.com/lp1/",
         url_img   : "/assets/images/img-7.jpg",
-        animation   : "fadeInUp"
+        animation   : "fadeInLeft"
     },
     {
         name    : "Sat-sports",
         link    : "https://www.sat-sports.com/lp/",
         url_img   : "/assets/images/img-8.jpg",
-        animation   : "fadeInUp"
+        animation   : "fadeInRight"
     },
     {
         name    : "TAGGER JAPAN",
         link    : "https://www.taggerjapan.co.jp/",
         url_img   : "/assets/images/img-9.jpg",
-        animation   : "fadeInLeft"
+        animation   : "fadeInUp"
     },
     {
         name    : "Meikoshokai",
         link    : "http://www.meikoshokai.co.jp/solution/",
         url_img   : "/assets/images/img-10.jpg",
-        animation   : "fadeInRight"
+        animation   : "fadeInUp"
     }
 ];
 

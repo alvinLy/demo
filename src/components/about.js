@@ -30,7 +30,7 @@ class About extends Component {
 											</div>
 											<div className="row-desc">
 												<strong>Foreign Languages:</strong>
-												<p>Have ability to basic communicate English.</p>
+												<p>Basic communicate English.</p>
 											</div>
 											<div className="row-desc">
 												<strong>Personal Attributes:</strong>

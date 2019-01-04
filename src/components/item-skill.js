@@ -13,7 +13,7 @@ class Itemskill extends Component {
 					<div className="progress-wrap">
 						<h3>Photoshop</h3>
 						<div className="progress">
-							<div className={`progress-bar color-${index + 1}`} role="progressbar" aria-valuenow={65} aria-valuemin={0} aria-valuemax={100} style={{width: `${data.valuenow}%`}}>
+							<div className={`progress-bar color-${index + 1}`} role="progressbar" aria-valuenow={data.valuenow} aria-valuemin={data.valuemin} aria-valuemax={data.valuemax} style={{width: `${data.valuenow}%`}}>
 								<span>{data.valuenow}%</span>
 							</div>
 						</div>
