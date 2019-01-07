@@ -7,7 +7,7 @@ class Itemcompany extends Component {
 		const index = this.props.index;
 
 	    return (
-	    	<ScrollAnimation animateIn={data.animation}>
+	    	<ScrollAnimation animateIn={data.animation} delay={index * 200}>
 				<article className="timeline-entry">
 					<div className="timeline-entry-inner">
 						<div className={`timeline-icon color-${index + 1}`}>

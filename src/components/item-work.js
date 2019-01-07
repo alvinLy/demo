@@ -8,7 +8,7 @@ class Itemwork extends Component {
 		const index = this.props.index;
 
 	    return (			
-			<ScrollAnimation animateIn={data.animation} scrollableParentSelector='#work' delay={index * 500}>
+			<ScrollAnimation animateIn={data.animation} scrollableParentSelector='#work' delay={index * 200}>
 				<Col md={6}>
 					<div className="project" style={{backgroundImage: `url(${data.url_img})` }}>
 						<div className="desc">
