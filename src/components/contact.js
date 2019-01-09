@@ -54,18 +54,21 @@ class Contact extends Component {
 							<Row>
 								<ScrollAnimation animateIn="fadeInRight">
 									<Col md={10} mdOffset={1} mdPull={1}>
-										<form id="formContact">
+										<form id="formContact" method="POST"
+											action="https://docs.google.com/forms/d/1Lw324x3jeVJR7FypcyTZPoOAunU2bCmTY2lmhtgi604" 
+											onsubmit="return window.submitGoogleForm(this);">
+
 											<div className="form-group">
-												<input type="text" id="contact-name" className="form-control" placeholder="Name *" />
+												<input type="text" id="contact-name" className="form-control" placeholder="Name *" name="entry.2005620554" />
 											</div>
 											<div className="form-group">
-												<input type="text" id="contact-email" className="form-control" placeholder="Email *" />
+												<input type="text" id="contact-email" className="form-control" placeholder="Email *" name="entry.1045781291" />
 											</div>
 											<div className="form-group">
-												<input type="text" id="contact-phone" className="form-control" placeholder="Phone" />
+												<input type="text" id="contact-phone" className="form-control" placeholder="Phone" name="entry.1166974658" />
 											</div>
 											<div className="form-group">
-												<textarea id="message" cols={30} rows={7} className="form-control" placeholder="Message" />
+												<textarea id="message" cols={30} rows={7} className="form-control" placeholder="Message" name="entry.839337160" />
 											</div>
 											<div className="form-group">
 												<Button bsStyle="primary" type="submit" className="btn-send-message">Send Message</Button>

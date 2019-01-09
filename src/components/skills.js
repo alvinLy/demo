@@ -11,6 +11,7 @@ class Skill extends Component {
 			datas : data
 		}
 	}
+	
    	render() {   	
 		const dataSkill = this.state.datas;
 
